@@ -7,3 +7,83 @@
     padding-top: 0%;
 }
 
+#boxFundo{
+    width: 80%;
+    background-color: #5d7860;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px; 
+    margin-bottom: 50px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 5px;
+  }
+
+  #boxProduto{
+    height: 27%;
+    width: 27%;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-height: 27%;
+    
+  }
+
+  #boxProduto:hover{
+    width: 28%;
+    height: 28%;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #4d624f;
+  }
+
+  #carrosel{
+    margin-top: 40px;
+    background-position: center;
+  }
+
+  #produto{
+    height: 80%; 
+    width: 80%;
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #paginas{
+    border-right: 20px;
+  }
+  
+  #elemento{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fotoPerfil{
+  width: 300px;
+  height: 300px;
+}
+
+button{
+  border: 0px;
+background-color: white;}
+
+
+#boxProdutoInd{
+  background-color: #ffffff;
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  margin-top: 25px;
+  
+}
+
+#telaProduto{
+  margin-left: 100px;
+}
+

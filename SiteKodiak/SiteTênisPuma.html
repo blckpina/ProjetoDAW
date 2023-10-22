@@ -33,21 +33,24 @@
                   Filter
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="SiteTênisNike.html">Nike</a></li>
-                  <li><a class="dropdown-item" href="SiteTênisAdidas.html">Adidas</a></li>
-                  <li><a class="dropdown-item" href="SiteTênisPuma.html">Puma</a></li>
-                  <li><a class="dropdown-item" href="SiteTênisVans.html">Vans</a></li>
-                  <li><a class="dropdown-item" href="SiteTênisNewBalance.html">New balance</a></li>
-                  <li><a class="dropdown-item" href="SiteTênisTesla.html">Tesla</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="SiteTênisMasculino.html">Masculino</a></li>
-                  <li><a class="dropdown-item" href="SiteTênisFeminino.html">Feminino</a></li>
+                    <li><a class="dropdown-item" href="SiteTênisNike.html">Nike</a></li>
+                    <li><a class="dropdown-item" href="SiteTênisAdidas.html">Adidas</a></li>
+                    <li><a class="dropdown-item disabled" href="SiteTênisPuma.html">Puma</a></li>
+                    <li><a class="dropdown-item" href="SiteTênisVans.html">Vans</a></li>
+                    <li><a class="dropdown-item" href="SiteTênisNewBalance.html">New balance</a></li>
+                    <li><a class="dropdown-item" href="SiteTênisTesla.html">Tesla</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="SiteTênisMasculino.html">Masculino</a></li>
+                    <li><a class="dropdown-item" href="SiteTênisFeminino.html">Feminino</a></li>
                 </ul>
-              </li> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="bi bi-search text-white" type="submit" style="background-color: #504B43;">Search</button>
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -62,7 +65,7 @@
         <div class="offcanvas-header" style="background-color: black;">
           <h1 class="offcanvas-title" id="offcanvasRightLabel"><i class="bi bi-cart3" style="color: white;"></i></h1>
           <h3>
-          <p style="color: white;">Seu Carrinho (0) Itens</p>
+          <p style="color: white;;">Seu Carrinho (0) Itens</p>
           </h3>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="color: white;"></button>
         </div>
@@ -80,9 +83,9 @@
       </div>
 
 
-      <!--offcanvas Perfil-->
+      <!--offcanvas-->
         <div id="canvasoff">
-      <button style="margin-left: 35px;margin-top: 445px; position: fixed; border-radius: 20px; background-color: #6F8f72;border-color: #6F8f72;" class="bi bi-person-circle fs-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></button>
+      <button style="margin-left: 35px;margin-top: 450px; position: fixed; border-radius: 20px; background-color: #6F8f72;border-color: #6F8f72;" class="bi bi-person-circle fs-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></button>
         </div>
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div class="offcanvas-header">
@@ -254,60 +257,11 @@
 </div>
    
 
-      <!--carrosel inicio da tela-->
-
-      <div id="carouselExampleInterval" class="carousel slide container" style="margin-top: 40px;" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="Design/carousel01.PNG" class="d-block" alt="" width="100%"
-            height="150px">
-          </div>
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="Design/carousel02.png" class="d-block" alt="" width="100%"
-            height="150px">
-          </div>
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="Design/carousel03.PNG" class="d-block " alt="" width="100%"
-            height="150px">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+     
 
       <!--Box mostrar produtos-->
 
       <div id="boxFundo" class="container">
-
-        <!--new balance550-->
-        <div id="boxProduto">
-          <div id="produto"> 
-            <a href="new balance550.html">
-            <button>
-          <img src="Produtos/newBalance550.png" height="100%" width="100%">
-          <p style="margin-top: 22px;">Tenis New Balance 550 Masculino
-          <br>R$ 999,99
-          </p></button></a>
-          </div>
-        </div>
-
-        <!--lebron xx-->
-        <div id="boxProduto">
-            <div id="produto">
-              <button>
-          <img src="Produtos/NikeLebron20.png" height="100%" width="100%">
-          <p style="margin-top: 22px;">Tenis Nike Lebron XX "Time Machine"
-          <br>R$ 1.099,90
-            
-          </p> </button>
-            </div>
-        </div>
 
         <!--mb.01-->
         <div id="boxProduto">
@@ -319,83 +273,6 @@
           </p></button>
             </div>
         </div> 
-        
-        <!--tesla-->
-
-        <div id="boxProduto" style="overflow-wrap: autos;">
-          <div id="produto"><button>
-        <img src="Produtos/Tesla.png" height="100%" width="100%">
-        <p style="margin-top: 20px;">Tênis Tesla Coil Branco Refletivo
-        <br>R$ 503,99
-        </p></button>
-          </div>
-      </div> 
-
-      <!--Vans-->
-
-      <div id="boxProduto" style="overflow-wrap: autos;">
-        <div id="produto"><button>
-      <img src="Produtos/Vans.png" height="100%" width="100%">
-      <p style="margin-top: 66px;">Tenis Old Skool Black White
-      <br>R$ 399,99
-      </p></button>
-        </div>
-    </div>
-    
-    <!--Travis-->
-
-    <div id="boxProduto" style="overflow-wrap: autos;">
-      <div id="produto"><button>
-    <img src="Produtos/UVreact.png" height="100%" width="100%">
-    <p style="margin-top: 22px;">Tênis Nike UV Activated Sun
-    <br>R$ 1.299,90
-    </p></button>
-      </div>
-  </div>
-   
-  <!--TÊNIS NIKE AIR MAX 97 SE FEMININO-->
-
-    <div id="boxProduto" style="overflow-wrap: autos;">
-      <div id="produto"><button>
-    <img src="Produtos/TÊNIS NIKE AIR MAX 97 SE FEMININO.png" height="100%" width="100%">
-    <p style="margin-top: 22px;">Tênis Nike Air Max 97 SE Feminino
-    <br>R$ 1.499,99
-    </p></button>
-      </div>
-  </div>
-
-    <!--TÊNIS NIKE DUNK LOW SE FEMININO-->
-
-    <div id="boxProduto" style="overflow-wrap: autos;">
-      <div id="produto"><button>
-    <img src="Produtos/TÊNIS NIKE DUNK LOW SE FEMININO.png" height="100%" width="100%">
-    <p style="margin-top: 22px;">Tênis Nike Dunk Low SE Feminino
-    <br>R$ 999,99
-    </p></button>
-      </div>
-  </div>
-
-      <!--TÊNIS ADIDAS YEEZY BOOST 350 V2 MASCULINO-->
-
-      <div id="boxProduto" style="overflow-wrap: autos;">
-        <div id="produto"><button>
-      <img src="Produtos/TÊNIS ADIDAS YEEZY BOOST 350 V2 MASCULINO.png" height="100%" width="100%">
-      <p style="margin-top: 22px;">Tênis Adidas Yeezy Boost Masculino
-      <br>R$ 1.399,99
-      </p></button>
-        </div>
-    </div>
-
-    <!--TÊNIS ADIDAS SAMBA OG MASCULINO-->
-
-    <div id="boxProduto" style="overflow-wrap: autos;">
-      <div id="produto"><button>
-    <img src="Produtos/TÊNIS ADIDAS SAMBA OG MASCULINO.png" height="100%" width="100%">
-    <p style="margin-top: 22px;">Tênis Adidas Samba OG Masculino
-    <br>R$ 599,99
-    </p></button>
-      </div>
-  </div>
 
   <!--TÊNIS PUMA SLIPSTREAM BBALL MASCULINO-->
 
@@ -408,9 +285,9 @@
     </div>
 </div>
 
-  <!--TÊNIS PUMA MB.02 LO MASCULINO-->
+<!--TÊNIS PUMA MB.02 LO MASCULINO-->
 
-  <div id="boxProduto" style="overflow-wrap: autos;">
+<div id="boxProduto" style="overflow-wrap: autos;">
     <div id="produto"><button>
   <img src="Produtos/TÊNIS PUMA MB.02 LO MASCULINO.png" height="100%" width="100%">
   <p style="margin-top: 22px;">Tênis Puma MB.02 LO Masculino
@@ -419,6 +296,26 @@
     </div>
 </div>
 
+<!--TÊNIS PUMA RS-X EFEKT EOC FEMININO-->
+<div id="boxProduto" style="overflow-wrap: autos;">
+    <div id="produto"><button>
+  <img src="Produtos/TÊNIS PUMA RS-X EFEKT EOC FEMININO.png" height="100%" width="100%">
+  <p style="margin-top: 22px;">Tenis Puma RS-X Efekt EOC Feminino 
+  <br>R$ 699,99
+  </p></button>
+    </div>
+</div>
+
+<!--TÊNIS PUMA RUNWAY X DAPPER DAN MASCULINO-->
+
+<div id="boxProduto" style="overflow-wrap: autos;">
+    <div id="produto"><button>
+  <img src="Produtos/TÊNIS PUMA RUNWAY X DAPPER DAN MASCULINO.png" height="100%" width="100%">
+  <p style="margin-top: 22px;">Tênis Puma Runway X Dapper Masculina
+  <br>R$ 1.499,99
+  </p></button>
+    </div>
+</div>
 
 
 
@@ -426,30 +323,6 @@
 
     </div>
  
-<!--Pagination-->
-      <div id="paginas">
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-              </a>
-            </li>
-            <li class="page-item"><a class="page-link" href="SiteTênis.html">1</a></li>
-            <li class="page-item"><a class="page-link" href="SiteTênisPage2.html">2</a></li>
-            <li class="page-item"><a class="page-link" href="SiteTênisPage3.html">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-
-      
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
